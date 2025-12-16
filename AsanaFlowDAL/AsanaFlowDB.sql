@@ -36,7 +36,6 @@ CREATE TABLE Users (
     mfa_enabled BIT DEFAULT 0,
     mfa_secret VARCHAR(255) NULL
 );
-
 GO
 
 -- Create Yoga_Categories table
