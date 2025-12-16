@@ -326,4 +326,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⚠️ Important Security Note**: Never commit sensitive information like connection strings, API keys, or SMTP passwords to version control. Use environment variables or secure configuration management tools in production environments.
