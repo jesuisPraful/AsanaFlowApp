@@ -2,11 +2,11 @@
 
 A comprehensive monolithic yoga and wellness application built with ASP.NET Core, providing a complete platform for managing yoga practices, breathing exercises, music playlists, and user progress tracking.
 
-## 📋 Overview
+## Overview
 
 AsanaFlow is a full-featured yoga management system that enables users to explore yoga poses, create custom sessions, track their progress, and enhance their practice with guided breathing exercises and curated music playlists. The application features secure authentication, personalized user experiences, and a robust API for seamless integration.
 
-## ✨ Features
+## Features
 
 - **User Management**: Secure OTP-based account creation with JWT authentication and password hashing
 - **Yoga Pose Library**: Browse and explore yoga poses organized by categories
@@ -17,7 +17,7 @@ AsanaFlow is a full-featured yoga management system that enables users to explor
 - **Music Integration**: Curated playlists to enhance your yoga practice
 - **RESTful API**: 44+ endpoints for comprehensive application functionality
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Framework**: ASP.NET Core
 - **ORM**: Entity Framework Core (Database-First Approach)
@@ -27,7 +27,7 @@ AsanaFlow is a full-featured yoga management system that enables users to explor
 - **Configuration**: appsettings.json
 - **Security**: Password hashing with industry-standard algorithms
 
-## 🗄️ Database Schema
+## Database Schema
 
 The application uses a relational database with the following tables:
 
@@ -41,7 +41,7 @@ The application uses a relational database with the following tables:
 - **User_Favorites**: User bookmarked poses and sessions
 - **Breathing_Exercises**: Guided breathing technique instructions
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -109,7 +109,7 @@ dotnet run
 
 The API will be available at `https://localhost:5001` (or the port specified in your launch settings).
 
-## 📡 API Documentation
+## API Documentation
 
 The application provides 44+ API endpoints organized into the following categories:
 
@@ -193,7 +193,7 @@ The application provides 44+ API endpoints organized into the following categori
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 ```
 
-## 🔒 Security Features
+##  Security Features
 
 - **Password Hashing**: Secure password storage using BCrypt/PBKDF2
 - **JWT Authentication**: Stateless authentication with configurable expiration
@@ -203,7 +203,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 - **Input Validation**: Data validation on all API endpoints
 - **SQL Injection Prevention**: Parameterized queries via Entity Framework Core
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AsanaFlow/
@@ -220,7 +220,7 @@ AsanaFlow/
 └── Startup.cs            # Application configuration and services
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Complete `appsettings.json` example:
 
@@ -269,14 +269,14 @@ export JwtSettings__SecretKey="your_secret_key"
 export EmailSettings__SmtpPassword="your_smtp_password"
 ```
 
-## 🧪 Testing
+##  Testing
 
 Run unit tests:
 ```bash
 dotnet test
 ```
 
-## 📦 Deployment
+## Deployment
 
 ### Prerequisites
 - SQL Server database
@@ -297,7 +297,7 @@ dotnet publish --configuration Release --output ./publish
 5. Configure HTTPS certificates
 6. Set up database connection and run migrations
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -307,17 +307,14 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
+## Author
 
 **Your Name**
 - GitHub: [@jesuisPraful](https://github.com/jesuisPraful)
 - Email: prafulsingh211@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Entity Framework Core documentation
 - ASP.NET Core community
